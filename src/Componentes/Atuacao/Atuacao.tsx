@@ -4,9 +4,10 @@ import vector from '../../assets/Vector2.svg'
 import vector1 from '../../assets/Vector1.svg'
 const Atuacao = () => {
   return (
-    <div className=" bg-[#F2F2F2]">
+    <div className="bg-[#F2F2F2] w-full">
 
-        <img src={vector} className="w-[50%] h-full" alt="" />
+
+        <img src={vector} className="w-[50%] h-[50%]" alt="" />
       <section className="bg-[#0D1B2A] text-white py-12 px-6">
 
 
@@ -76,7 +77,8 @@ const Atuacao = () => {
         </div>
       </div>
     </section>
-    <img src={vector1} className="w-[50%] absolute right-0 md:pt-14 -translate-y-1/2"  alt="" />
+    <img src={vector1} className="w-[50%] h-[50%] absolute right-0 md:pt-14 -translate-y-1/2"  alt="" />
+
 
 
 

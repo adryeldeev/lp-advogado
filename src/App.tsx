@@ -1,4 +1,5 @@
 import Atuacao from './Componentes/Atuacao/Atuacao'
+import Contato from './Componentes/Contato/Contato'
 import Header from './Componentes/Header/Header'
 import Sobre from './Componentes/Sobre/Sobre'
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <Sobre />
       <Atuacao />
+      <Contato/>
     </div>
   )
 }
