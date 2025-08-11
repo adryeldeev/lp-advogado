@@ -5,7 +5,7 @@ import vector1 from '../../assets/Vector1.svg';
 const Atuacao = () => {
   return (
     <div className="bg-[#F2F2F2] w-full">
-      <img src={vector} className="w-[50%] h-[50%]" alt="" />
+      <img src={vector} className="w-[50%]" alt="" />
       <section className="bg-[#0D1B2A] text-white py-12 px-6">
         <div className="max-w-6xl mx-auto">
           {/* Título */}

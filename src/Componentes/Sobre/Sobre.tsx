@@ -2,13 +2,10 @@ import perfilAdvogado from '../../assets/hotel-receptionist-work__1_-removebg-pr
 
 const Sobre = () => {
   return (
-    <div className="bg-[#F2F2F2] py-16 mx-auto">
+    <div className="bg-[#F2F2F2]  py-12 px-10 mx-auto">
 
 
-      <div className="flex flex-col md:flex-row md:items-center gap-12 md:gap-90 mt-44 md:mt-14 px-12">
-
-
-
+      <div className="flex flex-col items-center justify-between md:flex-row md:items-center gap-12 md:gap-90 mt-44 md:mt-14 px-12">
         <img
           src={perfilAdvogado}
           alt="foto do advogado"

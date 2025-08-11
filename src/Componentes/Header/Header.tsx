@@ -1,4 +1,3 @@
-import React from 'react';
 import fotoAdvogado1 from '../../assets/fotoAdvogado1.svg';
 import Qualidade from '../Qualidade/Qualidade';
 import { FaWhatsapp } from 'react-icons/fa';
