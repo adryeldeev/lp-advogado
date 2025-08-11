@@ -1,4 +1,3 @@
-import React from 'react'
 import perfilAdvogado from '../../assets/hotel-receptionist-work__1_-removebg-preview.png'
 
 const Sobre = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import { FaExclamationCircle, FaHourglassHalf, FaHandHoldingUsd, FaBriefcaseMedical, FaGavel, FaPiggyBank, FaWhatsapp } from "react-icons/fa";
 import vector from '../../assets/Vector2.svg';
 import vector1 from '../../assets/Vector1.svg';
