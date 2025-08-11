@@ -1,5 +1,3 @@
-// Qualidade.jsx
-import React from 'react';
 import { FaTrophy, FaGavel, FaComments } from 'react-icons/fa';
 
 const Qualidade = () => {
