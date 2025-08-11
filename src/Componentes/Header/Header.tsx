@@ -11,7 +11,8 @@ const Header = () => {
         
         {/* Texto */}
         <div className="w-full md:w-1/2 max-w-lg text-center md:text-left space-y-4">
-          <h1 className="text-2xl w-[180px] md:w-full md:text-4xl font-bold leading-snug">
+          <h1 className="text-2xl w-[180px] md:w-full md:text-4xl font-bold leading-snug text-center">
+
 
             Foi demitido injustamente? <br />
             Reivindique seus direitos com quem entende!
@@ -39,7 +40,7 @@ const Header = () => {
       <div className="
       absolute
     left-1/2
-    bottom-[-15rem]    /* empurra mais pra baixo em mobile */
+    bottom-[-12rem]    /* empurra mais pra baixo em mobile */
     transform
     -translate-x-1/2
     w-[90%]           /* deixa quase a largura toda em mobile */
