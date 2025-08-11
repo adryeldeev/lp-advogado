@@ -11,7 +11,8 @@ const Header = () => {
         
         {/* Texto */}
         <div className="w-full md:w-1/2 max-w-lg text-center md:text-left space-y-4">
-          <h1 className="text-2xl w-[180px] md:w-full md:text-4xl font-bold leading-snug text-center">
+          <h1 className="text-2xl w-[180px] md:w-full md:text-4xl font-bold leading-snug text-center md:text-left">
+
 
 
             Foi demitido injustamente? <br />
