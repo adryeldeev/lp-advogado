@@ -1,6 +1,7 @@
 import React from 'react';
 import fotoAdvogado1 from '../../assets/fotoAdvogado1.svg';
 import Qualidade from '../Qualidade/Qualidade';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -19,10 +20,13 @@ const Header = () => {
           <p className="text-lg md:text-xl">
             Análise gratuita do seu caso em menos de 24h
           </p>
-          <button className="text-[14px] bg-[#FFD60A] text-[#0D1B2A] w-[200px] md:w-auto px-10 py-2 rounded-full font-semibold shadow-lg hover:bg-[#ffc107] transition duration-300 cursor-pointer">
+          <button className="text-[10px] md:text-[16px] bg-[#FFD60A] text-[#0D1B2A] w-[200px] md:w-auto px-10 py-2 rounded-full font-semibold shadow-lg hover:bg-[#ffc107] transition duration-300 flex items-center justify-center cursor-pointer gap-2">
+
+
 
 
             Quero uma avaliação gratuita
+            <FaWhatsapp className="text-xl text-green-500" />
           </button>
         </div>
 
